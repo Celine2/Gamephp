@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>S-GAME</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/style.css">
+	
+</head>
+<body>
+	<header>
+		<div class ="containerFirst">
+			
+			<img src="Oeil1.png" class="img-rounded" alt="Eye of Sauron">
+			<h1 id="titleHeader">Simplon <span>War</span></h1>
+
+			<button type ="button" class="btn btn-default" id="btn_first">New Game</button>
+
+		</div>
+		
+		
+	</header>
+
+	<main>
+		
+		<div class="cont1">
+			<h1 id="mainTitle">Le choc des simploniens!</h1>
+			<br><br>
+			<button type ="button" class="btn btn-default" id="btn_second">Go!</button>
+		</div>
+
+		<div class="row">
+	   		<div class="col-lg-12 col-sm-12 banner img-equipe"></div>
+	      <div class="col-lg-12 col-sm-12 page-header">
+	           <h1 style ="text-align: center">Créez vos équipes</h1>
+	   	</div>
+	   
+	   	<div class="col-lg-1 col-sm-0"> &nbsp; </div>
+	    <div class="col-lg-5 col-sm-12">    
+	       	<form class="form-inline">
+	         <div class="input-group">
+	           <div class="row">
+	                  <div class="col-lg-12"><h2>Les Héros</h2></div>
+	                  <div class="col-sm-12 col-lg-12">Personnage 1 :</div>
+	                  <div class="col-sm-12 col-lg-5">Nom* :<br /><input id="hero1" type="text" class="form-control" /></div>
+	                  <div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel1" />
+	                                   <option value="magicien">Magicien</option>
+	                                   <option value="elfe">Elfe</option>
+	                                   <option value="nain">Nain</option>
+	                                   <option value="guerrier">Guerrier</option>
+	                                 </select></div>
+		<div class="col-sm-12 col-lg-12">Personnage 2 :</div>
+	                  <div class="col-sm-12 col-lg-5">Nom* :<br /><input id="hero2" type="text"  class="form-control" /></div>
+	                  <div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel2">
+	                                   <option value="magicien">Magicien</option>
+	                                   <option value="elfe">Elfe</option>
+	                                   <option value="nain">Nain</option>
+	                                   <option value="guerrier">Guerrier</option>
+	                                 </select></div>
+	                  <div class="col-sm-12 col-lg-12">Personnage 3 :</div>
+	                  <div class="col-sm-12 col-lg-5">Nom* :<br /><input id="hero3" type="text"  class="form-control" /></div>
+	                  <div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel3">
+	                                  <option value="magicien">Magicien</option>
+	                                   <option value="elfe">Elfe</option>
+	                                   <option value="nain">Nain</option>
+	                                   <option value="guerrier">Guerrier</option>
+	                                 </select></div>
+		<div class="col-lg-12"> &nbsp; </div>
+	                  <div class="col-lg-12"><h6>les champs munis d'une(*) sont obligatoires</h6></div>
+	                  <div class="col-lg-12"> &nbsp; </div>
+	           </div>
+	       </div>
+	     </form>
+	   </div>
+	   <div class="col-lg-5 col-sm-12">    
+	       <div class="row">
+	              <div class="col-lg-12"><h2>Les Monstres</h2></div>
+	              <div class="col-sm-12 col-lg-12">Personnage 1 :</div>
+	              <div class="col-sm-12 col-lg-5">Nom* :<br /><input id="monstre1" type="text"  class="form-control" /></div>
+	              <div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel4">
+	                               <option value="magenoir">Mage Noir</option>
+	                               <option value="orque">Orque</option>
+	                               <option value="gobelin">Gobelin</option>
+	                               <option value="ombrenoir">Ombre Noir</option>
+	                               <option value="sauron">Sauron</option>
+	                             </select></div>
+	              <div class="col-sm-12 col-lg-12">Personnage 2 :</div>
+	              <div class="col-sm-12 col-lg-5">Nom* :<br /><input id="monstre1" type="text" class="form-control"  /></div>
+	              <div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel5">
+	                               <option value="magenoir">Mage Noir</option>
+	                               <option value="orque">Orque</option>
+	                               <option value="gobelin">Gobelin</option>
+	                               <option value="ombrenoir">Ombre Noir</option>
+	                               <option value="sauron">Sauron</option>
+	                             </select></div>
+	              <div class="col-sm-12 col-lg-12">Personnage 3 :</div>
+	              <div class="col-sm-12 col-lg-5">Nom* :<br /><input id="monstre1" type="text" class="form-control"  /></div>
+	              <div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel6">
+	                               <option value="magenoir">Mage Noir</option>
+	                               <option value="orque">Orque</option>
+	                               <option value="gobelin">Gobelin</option>
+	                               <option value="ombrenoir">Ombre Noir</option>
+	                               <option value="sauron">Sauron</option>
+	                             </select></div>
+	              <div class="col-lg-12">  &nbsp; </div>
+	              <div class="col-lg-12 right"> <a href="combat.php"><button type="button" class="btn btn-secondary btn-lg start" style="background-color: #000">[ Commencer ]</button></a>
+	              </div>
+	              <div class="col-lg-12"> &nbsp; </div>
+	         </div>
+	   </div>
+	   <div class="col-lg-1 col-sm-0"> &nbsp; </div>
+	</main>
+		
+	<!-- FOOTER -->
+
+	<footer>
+		<p>Simplon War, un jeu proposé par la team #01 de Simplon Rodez</p>
+		<p><a href ="https://github.com/Simplon-Rodez">Simplon.co | GithubSimplonRodez</a></p>
+		
+	</footer>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
